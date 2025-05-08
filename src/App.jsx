@@ -1,20 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Listitems from './Listitems'
+import Nav from './Nav'
+import Listcontext from './Listcontext'
+import Login from './Login'
+import Addlist from './Addlist'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <h1>My List</h1>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-        </ul>
+        <Listcontext>
+          <Addlist />
+          <Nav />
+        </Listcontext>
       </div>
     </>
   )
