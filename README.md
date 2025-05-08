@@ -17,5 +17,8 @@ This is a simple React app bootstrapped with [Vite](https://vitejs.dev/), demons
 - HTML & CSS (basic styling)
 - React Hooks (`useState`, `useContext`, optionally `useEffect`)
 
-## 📁 Project Structure
+
+## Live Demo
+
+You can view the live demo of the project here: [React List Item Demo](https://reactlist-item.netlify.app/)
 
